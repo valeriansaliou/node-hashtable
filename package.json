@@ -1,6 +1,6 @@
 {
-    "name": "@valeriansaliou/hashtable",
-    "version": "2.1.0",
+    "name": "@valerian.saliou/hashtable",
+    "version": "2.1.1",
     "description": "Native HashTable and ES6 compatible Map for Node.js",
     "main": "./index.js",
     "keywords": [
