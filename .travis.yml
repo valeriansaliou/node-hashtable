@@ -1,3 +1,10 @@
 language: node_js
 node_js:
   - "0.10"
+addons:
+  apt:
+    sources:
+      - george-edison55-precise-backports
+    packages:
+      - cmake-data
+      - cmake
