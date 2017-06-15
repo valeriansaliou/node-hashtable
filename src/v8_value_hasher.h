@@ -4,7 +4,7 @@
 #include <string>
 #include <iostream>
 #include <node.h>
-#if defined __APPLE__ && defined __has_include && __has_include(<tr1/unordered_map>)
+#if defined __APPLE__ && defined __has_include && __has_include("tr1/unordered_map")
 #include <tr1/unordered_set>
 #define hash std::tr1::hash
 #else
