@@ -1,6 +1,6 @@
 {
-    "name": "@anchorchat/hashtable",
-    "version": "2.0.3",
+    "name": "@valeriansaliou/hashtable",
+    "version": "2.1.0",
     "description": "Native HashTable and ES6 compatible Map for Node.js",
     "main": "./index.js",
     "keywords": [
@@ -10,18 +10,25 @@
         "hashtable",
         "container"
     ],
-    "maintainers": [{
-        "name": "Chad Walker",
-        "email": "chad@chad-cat-lore-eddie.com",
-        "url": "https://github.com/chad3814"
-    }],
+    "maintainers": [
+        {
+            "name": "Chad Walker",
+            "email": "chad@chad-cat-lore-eddie.com",
+            "url": "https://github.com/chad3814"
+        },
+        {
+            "name": "Valerian Saliou",
+            "email": "valerian@valeriansaliou.name",
+            "url": "https://github.com/valeriansaliou"
+        }
+    ],
     "author": {
         "name": "Isaac Wagner",
         "email": "isaacbwagner@gmail.com"
     },
     "repository": {
       "type": "git",
-      "url": "git://github.com/anchorchat/node-hashtable.git"
+      "url": "git://github.com/valeriansaliou/node-hashtable.git"
     },
     "license": "MIT",
     "dependencies": {
