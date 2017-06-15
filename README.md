@@ -5,7 +5,7 @@ Sometimes you need to store so much data in memory that V8 can get a bit clogged
 
 To install, simply:
 
-    npm install hashtable
+    npm install hashtable-patch-valeriansaliou
 
 "But Isaac, javascript already has hash tables! They're called objects, dummy"
 ---
