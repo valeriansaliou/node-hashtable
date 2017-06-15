@@ -3,7 +3,7 @@
 
 #include <string>
 #include <iostream>
-#if defined __APPLE__ && __has_include(<tr1/unordered_map>)
+#if defined __APPLE__ && defined __has_include && __has_include(<tr1/unordered_map>)
 #include <tr1/unordered_map>
 #define unordered_map std::tr1::unordered_map
 #else
