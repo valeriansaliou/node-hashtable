@@ -1,11 +1,12 @@
-HashTable
-=========
+# node-hashtable
 
 Sometimes you need to store so much data in memory that V8 can get a bit clogged up. This Node.js module provides an interface to a native hashmap data structure that exists outside of V8's memory constraints.
 
 To install, simply:
 
     npm install hashtable-patch-valeriansaliou
+
+**Note: ensure you have a C++11 compiler available (ideally GCC 4.9+).**
 
 "But Isaac, javascript already has hash tables! They're called objects, dummy"
 ---
