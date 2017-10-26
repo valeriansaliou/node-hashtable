@@ -6,7 +6,7 @@ To install, simply:
 
     npm install hashtable-patch-valeriansaliou
 
-**Note: ensure you have a C++11 compiler available (ideally GCC 4.9+).**
+**Note: ensure you have a C++11 compiler available (available in GCC 4.9+).**
 
 "But Isaac, javascript already has hash tables! They're called objects, dummy"
 ---
